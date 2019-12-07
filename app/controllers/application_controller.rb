@@ -1,2 +1,2 @@
-class ApplicationController < ActionController::Base
+railsclass ApplicationController < ActionController::Base
 end
