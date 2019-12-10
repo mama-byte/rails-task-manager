@@ -7,5 +7,6 @@
     <input type= "checkbox" name="unchecked">
   <%end%>
   <%= link_to task.title,  task_path(task)%>
+  <%= link_to "Remove task", task_path(task), method: :delete%>
 <% end %>
-  <%= link_to "create new task", tasks_new_path%>
+  <%= link_to "Create new task", tasks_new_path%>

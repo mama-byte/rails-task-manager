@@ -4,3 +4,5 @@
 <p><%= @task.details %></p>
 <%= link_to "Back to all tasks", tasks_path %>
 <%= link_to "Edit this task", edit_path %>
+<%= link_to "Remove task", task_path(@task), method: :delete %>
+
